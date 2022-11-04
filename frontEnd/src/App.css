@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+.new-task-container {
+  display: flex;
+  justify-content: center;
+}
+
+.insert-task {
+  font-size: 18px;
+  color: #1c1e21;
+  opacity: 0.7;
+  padding-left: 10px;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  border: 1px solid;
+  height: 30px;
+  margin-top: 10px;
+  width: 500px;
+  text-align: center;
+}
+
+.new-task-btn {
+  margin-left: 30px;
+  font-size: 13px;
+  color: #1c1e21;
+  opacity: 0.7;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  border: 1px solid;
+  height: 25px;
+  margin-top: 10px;
+  align-self: center;
+}
+
+.new-task-btn:hover {
+  background-color: #424242b9;
+  color: white;
+}
+
+.select-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.select-order {
+  font-size: 18px;
+  color: #1c1e21;
+  opacity: 0.7;
+  padding-left: 10px;
+  border-color: #bdc7d8;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  border: 1px solid;
+  height: 30px;
+  margin-top: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+#select-label {
+  font-size: 18px;
+  color: #1c1e21;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.task-container {
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  border: 1.5px solid;
+  max-width: 1100px;
+  margin: auto;
+  padding: 15px;
+  background-color: #d3d3d3;
+}
+
+.single-task {
+  background-color:whitesmoke;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  border: 1.5px solid;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#task {
+  width: 450px;
+  margin: auto;
+  font-family: 'Courgette', cursive;
+}
+
+#status {
+  margin: auto;
+  font-family: 'Actor', sans-serif;
+}
+
+#date {
+  margin: auto;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.status-pending {
+  background-color: red;
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 3px;
+  border-radius: 5px;
+  border: 0.5px solid black;
+}
+
+.status-ongoing {
+  background-color: yellow;
+  font-weight: bold;
+  padding: 3px;
+  border-radius: 5px;
+  border: 0.5px solid black;
+}
+
+.status-done {
+  background-color: olive;
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 3px;
+  border-radius: 5px;
+  border: 0.5px solid black;
+}
+
+.btn-container {
+  display: flex;
+  align-content: center;
+}
+
+.button-settings {
+  height: 30px;
+  align-self: center;
+  margin: 5px;
+  color: #1c1e21;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  border: 1px solid;
+  text-align: center;
+}
+
+/* #delete {
+  background-color: #ef233c;
+} */
+
+#delete:hover {
+  background-color: #ef233c;
+}
+
+#update:hover {
+  background-color: #bbbaba;
+}
+
+.edit-input {
+  font-size: 10px;
+  color: #1c1e21;
+  opacity: 0.7;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  border: 1px solid;
+  height: 50px;
+  margin-top: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.edit-select {
+  font-size: 11px;
+  color: #1c1e21;
+  border-color: #bdc7d8;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  border: 1px solid;
+  height: 30px;
+  margin-top: 10px;
+  width: 110px;
+  text-align: center;
+}
+
+#save-edit {
+  margin-left: 10px;
+  height: 30px;
+  align-self: center;
+  margin: 5px;
+  color: #1c1e21;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  border: 1px solid;
+  text-align: center;
+}
+
+#save-edit:hover {
+  background-color: olivedrab;
+}
+
+#cancel-edit {
+  margin-left: 5px;
+  height: 30px;
+  align-self: center;
+  margin: 5px;
+  color: #1c1e21;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  border: 1px solid;
+  text-align: center;
+}
+
+#cancel-edit:hover {
+  background-color: red;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  border: 1.5px solid black;
+}
+
+select:hover {
+  background-color: gainsboro;
+}
