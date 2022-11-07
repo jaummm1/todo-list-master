@@ -6,7 +6,7 @@ const OPTIONS = {
   useUnifiedTopology: true,
 };
 
-const MONGO_DB_URL = process.env.MONGO_DB_URL || `mongodb+srv://jaummmm1:1234@cluster0.slmqsxs.mongodb.net/?retryWrites=true&w=majority`;
+const MONGO_DB_URL = process.env.MONGO_DB_URL || 'mongodb+srv://jaummmm1:1234@cluster0.slmqsxs.mongodb.net/?retryWrites=true&w=majority';
 const DB_NAME = 'TodoList';
 
 let db = null;
